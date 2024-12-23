@@ -1,17 +1,27 @@
 /* Global Styles */
 
 @font-face {
-  font-family: Rubik;
+  font-family: 'Exo 2';
   src: url('https://cdn.phaz.uk/fonts/Exo_2/Exo2-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: "Saiba-45";
+  src: url('https://cdn.phaz.uk/fonts/saiba-45/SAIBA-45.ttf');
+}
+
+@font-face {
+  font-family: "Saiba-45 Outline";
+  src: url('https://cdn.phaz.uk/fonts/saiba-45/SAIBA-45-Outline.ttf');
 }
 
 /*
   Colour Scheme:
     - #FFFFFF (White)
     - #67AB00 (Green)
-    - #0F0453 (Navy)
-    - #4ED233 (Neon Green)
-    - #4A5AAA (Violet Blue)
+    - #07012d (Navy)
+    - #3400ab (Blue)
+    - #4a5aaa (Violet Blue)
 */
 
 * {
@@ -19,11 +29,18 @@
 }
 
 body{
-  font-family: Rubik, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Exo 2', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
-  background: #000;
+  background: #000801;
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6, p{
   margin: 0;
+}
+
+h1{
+  font-weight: normal;
+  font-size: 35px;
+  font-family: 'Saiba-45', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
