@@ -10,8 +10,6 @@ import Section2 from './Components/Section2';
 import Section3 from './Components/Section3';
 
 let App = () => {
-  
-
   return (
     <>
       <Background />
